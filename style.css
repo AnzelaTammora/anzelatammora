@@ -533,6 +533,8 @@ margin-bottom: 90px;
 }
 
  .f-work{
+    width: 100%;
+    max-width: 85%;
     display: block;
     margin: 0 auto;
     width: 355px;
@@ -548,6 +550,8 @@ margin-bottom: 90px;
 }
 
  .s-work{
+    width: 100%;
+    max-width: 85%;
     display: block;
     margin: 0 auto;
     width: 355px;
@@ -563,6 +567,8 @@ margin-bottom: 90px;
 }
 
  .t-work{
+    width: 100%;
+    max-width: 85%;
     display: block;
     margin: 0 auto;
     width: 355px;
@@ -578,6 +584,8 @@ margin-bottom: 90px;
 }
 
  .fo-work{
+    width: 100%;
+    max-width: 85%;
     display: block;
     margin: 0 auto;
     width: 355px;
@@ -594,6 +602,8 @@ margin-bottom: 90px;
 
 
  .fi-work{
+    width: 100%;
+    max-width: 85%;
     display: block;
     margin: 0 auto;
     width: 355px;
@@ -610,6 +620,8 @@ margin-bottom: 90px;
 
 
  .six-work{
+   width: 100%;
+   max-width: 85%;
    display: block;
    margin: 0 auto;
    width: 355px;
