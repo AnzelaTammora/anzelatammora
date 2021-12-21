@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="format-detection" content="telephone=no">
+
+    <title>{{ contact.htm }}</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+        integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" type="text/css" href="reset.css" />
+    <link rel='stylesheet' href='contact.css' type='text/css' media='all' />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Primary Meta Tags -->
+    <title>Saziņas lapa</title>
+    <meta name="title" content="{{ contact.htm }}">
+    <meta name="description" content="{{ Sazinies ar mani }}">
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="{{ contact.htm }}">
+    <meta property="og:title" content="{{ contact.htm }}">
+    <meta property="og:description" content="{{ Sazinies ar mani }}">
+    <meta property="og:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- Twitter -->
+    <meta property="twitter:card" content="summary_large_image">
+    <meta property="twitter:url" content="{{ contact.htm }}">
+    <meta property="twitter:title" content="{{ contact.htm }}">
+    <meta property="twitter:description" content="{{ Sazinies ar mani }}">
+    <meta property="twitter:image"
+        content="https://metatags.io/assets/meta-tags-16a33a6a8531e519cc0936fbba0ad904e52d35f34a46c97a2c9f6f7dd7d336f2.png">
+
+    <!-- TODO: create favicons -->
+
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <div class="header-wrapper">
+                <div class="wrapper">
+                    <nav class="main-nav">
+                        <div class="logo">Vārds Uzvārds</div>
+                        <ul class="nav-links">
+                            <li><a href="#works">DARBU SARAKSTS</a></li>
+                            <li><a href="#cv"><i class="fas fa-cloud-download-alt"></i>MANS CV</a></li>
+                            <li><a href="#facebook"><i class="fab fa-facebook"></i></a></li>
+                            <li><a href="#twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#github"><i class="fab fa-github"></i></a></li>
+                        </ul>
+                        <div class="burger">
+                            <div class="line line1"></div>
+                            <div class="line line2"></div>
+                            <div class="line line3"></div>
+                        </div>
+                    </nav>
+                    <script language="javascript" type="text/javascript">
+                        document.addEventListener('DOMContentLoaded', nav)
+                        function nav() {
+                            const burger = document.querySelector('.burger');
+                            const nav = document.querySelector('.main-nav');
+                            burger.addEventListener('click', () => {
+                                nav.classList.toggle('show')
+                            })
+                        }
+                    </script>
+                    <div class="contact-page">
+                        <h>Kontakti</h>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="conteiner">
+            <div class="third-story">
+                <div class="paragraph">
+                    <p>Pellentesque eu tellus eros. Nam ut turpis libero. Morbi tempor pellentesque commodo.
+                        Sed vel consequat leo. Vivamus felis erat, commodo vel tempor ac, auctor et justo.
+                        Donec risus nisi, dapibus a ullamcorper in, faucibus vulputate sapien.</p>
+                </div>
+                <div class="mail">
+                    <form action class="your-mail" target="_self">
+                        <div class="form-row">
+                            <label for="name">Tavs vārds</label>
+                            <input tipe="text" id="name" required>
+                          </div>
+                            <div class="form-row">
+                            <label for="email">Tavs epasts</label>
+                            <input type="email" id="email" required>
+                          </div>
+                          <div class="form-row">
+                            <label for="message">Tavs ziņojums</label>
+                            <textarea rows="3" id="message" required></textarea>
+                          </div>
+                          <div class="form-row">
+                            <input type="submit" value="NOSŪTĪT">
+                          </div>
+                    </form>
+                    <div class="contacts">
+                        <h3>Sazinies ar mani</h3>
+                        <div class="icons">
+                            <a href=""><i class="fab fa-facebook"></i></a>
+                            <a href=""><i class="fab fa-twitter"></i></a>
+                            <a href=""><i class="fab fa-linkedin-in"></i></a>
+                            <a href=""><i class="fab fa-instagram"></i></a>
+                            <a href=""><i class="fab fa-github"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-row">
+                <nav>
+                    <li>
+                        <a href="" target="_blank">WEBSKOLA</a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">KONTAKTI</a>
+                    </li>
+                    <li>
+                        <a href="" target="_blank">MANS CV</a>
+                    </li>
+                </nav>
+                <div class="powered">(c) 2021, Powered by WebSkola</div>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
