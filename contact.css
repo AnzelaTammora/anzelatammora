@@ -215,6 +215,10 @@ padding-bottom: 30px;
 }
 
 /*Forma*/
+.mail{
+  overflow: hidden;
+}
+
 .your-mail{
 width: 350px;
 margin: 11px auto 0;
