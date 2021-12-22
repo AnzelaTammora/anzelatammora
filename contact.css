@@ -188,12 +188,12 @@ opacity: 0;
 .third-story{
   display: block;
   margin: 0 auto;
+  width: 100%;
   max-width: 87%;
   font-size: 18px;
   font-weight: 300;
   color: #999999;
   text-align: center;
-  height: 770px;
   border: 1px solid white;
   border-radius: 10px;
   background: white;
