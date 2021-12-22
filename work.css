@@ -80,6 +80,7 @@ header{
 
 @media screen and (min-width: 1440px){
   .main-nav {
+    z-index: none;
       -webkit-box-shadow: none;
               box-shadow: none;
   }
