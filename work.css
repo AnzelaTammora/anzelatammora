@@ -269,6 +269,7 @@ header{
   background-image: url(../images/web-design-mob.jpg);
   background-repeat: no-repeat;
   background-position: center;
+  width: 100%;
   width: 355px;
   height: 230px;
   margin-bottom: 40px;
