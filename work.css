@@ -207,6 +207,7 @@ header{
 
 /*-------*/
 .next-story{
+  width: 100%;
   display: block;
   margin: 0 auto;
   max-width: 95%;
@@ -234,6 +235,10 @@ header{
 
 @media screen and (min-width: 768px){
   .project-first p{
+  display: block;
+  margin: 0 auto;
+  margin-top: 40px;
+  margin-bottom: 20px;
   font-size: 18px;
   width: 696px;
   height: 130px;
@@ -244,9 +249,9 @@ header{
   .project-first p{
   width: 900px;
   height: 96px;
-  margin-left: 215px;
 }
 }
+
 
 .project-first .h1{
  font-size: 20px;
