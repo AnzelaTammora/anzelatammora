@@ -78,7 +78,7 @@ header{
           box-shadow: inset 0 0 0 67px rgba(3, 3, 3, 0.4);
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .main-nav {
       -webkit-box-shadow: none;
               box-shadow: none;
@@ -90,7 +90,7 @@ header{
   padding-left: 42px;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .logo {
      padding-left: 162px;
 }
@@ -113,7 +113,7 @@ header{
 }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
 .nav-links {
   margin-right: 165px;
 }
@@ -219,7 +219,7 @@ header{
           box-shadow: 0px 0px 18px 2px rgba(34, 60, 80, 0.2);
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .next-story{
     -webkit-box-shadow: none;
             box-shadow: none;
@@ -252,7 +252,7 @@ header{
   }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .project-first p{
   width: 900px;
   height: 96px;
@@ -270,7 +270,7 @@ header{
 }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .project-first .h1{
   font-size: 42px;
 }
@@ -297,7 +297,7 @@ header{
 }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .project-image{
       width: 900px;
       height: 600px;
@@ -385,7 +385,7 @@ color: #491052;
 }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .footer-row nav{
       margin-left: 150px;    
 }
@@ -414,7 +414,7 @@ nav li a{
 }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
   .powered{
       margin-right: 150px;
 }
