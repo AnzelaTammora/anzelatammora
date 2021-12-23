@@ -90,7 +90,7 @@ header{
    padding-left: 36px;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .logo{
       padding-left: 170px;
    }
@@ -113,7 +113,7 @@ header{
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .nav-links{
      margin-right: 165px;
    }
@@ -230,7 +230,7 @@ header{
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .intro-header{
       margin-left: 150px;
       margin-right: 500px;
@@ -312,7 +312,7 @@ header{
     z-index: 40;
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .me{
       display: -ms-grid;
       display: grid;
@@ -323,7 +323,7 @@ header{
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .photo{
       background-image: url(../images/florian-krumm-euZ2n8dGUcQ-unsplash.jpg);
       background-repeat: no-repeat;
@@ -339,7 +339,7 @@ margin-bottom: 90px;
    }  
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
 .about{
    width: 100%;
    max-width: 50%;
@@ -349,7 +349,7 @@ margin-bottom: 90px;
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .me .post{
       font-size: 17px;
       font-weight: 400;
@@ -373,7 +373,7 @@ margin-bottom: 90px;
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .me .post h2{
       font-size: 33px;
       font-weight: 400;
@@ -431,7 +431,7 @@ margin-bottom: 90px;
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
       .programms .themes h2{
          width: 100%;
          font-size: 36px;
@@ -440,7 +440,7 @@ margin-bottom: 90px;
       }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .programms .themes p{
       margin-left: 10px;
       margin-right: 10px;
@@ -514,7 +514,7 @@ margin-bottom: 90px;
     padding-bottom: 20px;
 }
 
- @media screen and (min-width: 1440px){
+ @media screen and (min-width: 1360px){
    #works h2{
       font-size: 36px;
    }
@@ -538,7 +538,7 @@ margin-bottom: 90px;
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .my-works{
       margin-left: 120px;
       margin-right: 120px;
@@ -569,7 +569,7 @@ margin-bottom: 90px;
    }
 }
 
-   @media screen and (min-width: 1440px){
+   @media screen and (min-width: 1360px){
       .my-works{
          display: -ms-grid;
          display: grid;
@@ -694,7 +694,7 @@ margin-bottom: 90px;
     margin-bottom: 35px;
 }
 
- @media screen and (min-width: 1440px){
+ @media screen and (min-width: 1360px){
   .contacts h3{
       margin-top: 90px;
    }
@@ -765,7 +765,7 @@ margin-bottom: 90px;
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
    .footer-row nav{
        margin-left: 150px;    
    }
@@ -794,7 +794,7 @@ nav li a{
    }
 }
 
-@media screen and (min-width: 1440px){
+@media screen and (min-width: 1360px){
 .powered{
        margin-right: 150px;
    }
